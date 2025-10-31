@@ -14,67 +14,68 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="/site.webmanifest"/>
 
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 
 <body>
     <header class="site-header">
         <div class="container header-inner">
             <a class="logo" href="index.html">The Code Den</a>
-            <nav aria-label="Main Navigation">
                 <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
         </div>
     </header>
 
     <!--hero / Landing-->
     <main>
         <section class="hero">
-            <div class="container hero-inner">
-                <h1>Welcome to the Code Den</h1>
+        <h1>Welcome to the Code Den</h1>
                 <p> Your one-stop solution for coding,community and of course coffee.</p>
                 <div class="cta-buttons">
                     <a class="btn-primary" href="menu.html">View Menu</a>
-                    <a class="btn-secondary" href="contact.html">Contact</a>
-                    </p>
+                    <a class="btn-secondary" href="about.html">Learn More</a>         
                 </div>
-            </div>
         </section>
 
         <!--Featured-->
-        <section class="featured container">
-            <h2>Our Favourites</h2>
-            <div class="card-grid">
-                <article class="card">
-                    <img src="assets/images/latte.jpg" alt="Latte Coffee" />
-                    <h3>Java Latte</h3>
-                    <p>A creamy blend of espresso and steamed milk, topped with a light layer of foam.</p>
-                </article>
+    
+<main class="container featured-section">
+  <h2>This Week’s Featured</h2>
+  
+  <ul class="menu-list featured-list">
+    <li>
+      <img src="/assets/images/espresso.webp" alt="Debug Brew">
+      <div class="item-info">
+        <h3>Debug Brew</h3>
+        <p>A bold espresso that fixes your morning bugs — smooth, strong, and essential.</p>
+      </div>
+    </li>
 
-                <article class="card">
-                    <img src="../images/pastry.jpg" alt="Pastry" />
-                    <h3>Syntax Scone</h3>
-                    <p>Buttery scone with a hint of vanilla, perfectcly paired with any coffee.</p>
-                </article>
+    <li>
+      <img src="/assets/images/latte.webp" alt="JavaScript Latte">
+      <div class="item-info">
+        <h3>JavaScript Latte</h3>
+        <p>Balanced flavors of vanilla and espresso — best enjoyed while coding.</p>
+      </div>
+    </li>
 
-                <article class="card">
-                    <img src="../images/brew.jpg" alt="Brew Coffee" />
-                    <h3>Debug Brew</h3>
-                    <p>Bold espresso shot- perfect for fixing all your bugs.</p>
-                </article>
+    <li>
+      <img src="/assets/images/cookie.webp" alt="Syntax Cookie">
+      <div class="item-info">
+        <h3>Syntax Cookie</h3>
+        <p>Classic chocolate chip - a treat for a successful build.</p>
+      </div>
+    </li>
+  </ul>
+</main>
 
-
-            </div>
-        </section>
-    </main>
 
 <!--Footer-->
 <footer>
