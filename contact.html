@@ -1,61 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Code Den | Home</title>
-
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | The Code Den</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-
 <body>
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="logo" href="index.html">The Code Den</a>
-            <nav aria-label="Main Navigation">
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!--Form-->
-    <main class="container contact">
-        <h1>Contact Us</h1>
-        <p>If you have any questions, feedback, or just want to say hello, feel free to reach out to us using the form below!</p>
-
-        <form action="#" method="post" class="contact-form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required/>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required/>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit" class="btn-primary">Send Message</button>
-        </form>
-
-    </main>
-
-<!--Footer-->
-<footer>
-    <div class="container">
-        <p>&copy; 2025 The Code Den. All rights reserved.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">The Code Den</a>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
     </div>
-</footer>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Code Den. All rights reserved.</p>
+  </footer>
 </body>
 </html>
