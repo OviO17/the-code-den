@@ -74,35 +74,25 @@ body {
   margin-top: 1.5rem;
 }
 
-.btn {
+.btn-primary,
+.btn-secondary {
   display: inline-block;
-  padding: 0.7rem 1.2rem;
+  padding: 0.7rem 1.4rem;
   border-radius: 6px;
-  text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  margin: 0.3rem;
 }
 
-.btn.primary {
-  background-color: #a67c52;
+.btn-primary {
+  background-color: #3b3024;
   color: #fff;
 }
 
-.btn.primary:hover {
-  background-color: #c89f6d;
-}
-
-.btn.secondary {
-  border: 2px solid #a67c52;
-  color: #a67c52;
-  background: transparent;
-}
-
-.btn.secondary:hover {
-  background-color: #a67c52;
+.btn-secondary {
+  background-color: #3b3024;
   color: #fff;
 }
-
 /* === Cards / Grid Layout (if used elsewhere) === */
 .card-grid {
   display: grid;
@@ -167,7 +157,7 @@ body {
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 1rem;
+
 }
 
 /* Text beside the image */
