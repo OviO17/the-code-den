@@ -3,28 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | The Code Den</title>
+  <title> The Code Den| Page Name</title>
 
-     <!--Favicon-->
+  <!-- Font Awesome for burger icon + social icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  />
+
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="assets/site.webmanifest" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
   <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html">The Code Den</a>
+  <div class="container header-inner">
+    <a class="logo" href="index.html">☕ The Code Den</a>
+
+    <!-- Hidden checkbox to control menu state -->
+    <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-label="Toggle navigation">
+
+    <!-- Label acts as the burger icon -->
+    <label for="nav-toggle" class="nav-toggle-label">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Main Navigation">
       <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
-    </div>
-  </header>
+    </nav>
+  </div>
+</header>
+
 
   <main>
     <h1>Need to get in touch?</h1>

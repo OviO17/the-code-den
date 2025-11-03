@@ -3,63 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | The Code Den</title>
+  <title> The Code Den| Page Name</title>
 
- <!--Favicon-->
+  <!-- Font Awesome for burger icon + social icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  />
+
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="assets/site.webmanifest" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
-    <!--Stylesheet-->
-
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html">The Code Den</a>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </header>
 
-  <main class="about-section">
-    <h1>About Us</h1>
-    <p>At The Code Den, we combine our two passions — great coffee and great code.</p>
-    <img src="assets/images/about-cafe.webp" alt="Our Café" />
-    <p>Whether you're debugging, collaborating, or just relaxing, our cozy café offers the perfect environment for creativity and community.</p>
-  </main>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">☕ The Code Den</a>
 
- <!--Footer-->
-<footer>
-  <div class="container footer-content">
-    <p>&copy; 2025 The Code Den. All rights reserved.</p>
+        <input type="checkbox" id="nav-toggle" class="nav-checkbox" />
+        <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
 
-    <!-- Social Media Icons -->
-    <div class="social-links">
-      <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)">
-       <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com" target="_blank"  aria-label="Visit our Facebook page (opens in a new tab)">
-       <i class="fa-brands fa-square-facebook"></i>
-      </a>
-      <a href="https://x.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-       <a href="https://youtube.com" target="_blank" aria-label="Visit our Youtube page (opens in a new tab)">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
-    </div>
-  </div>
-</footer>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
- <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <main>
+        <!--About hero section-->
+     <section class="about-hero">
+  <h1>Our Story</h1>
+  <p>Where caffeine meets creativity — and great ideas are brewed daily.</p>
+</section>
 
-</body>
+      <!-- === About Content === -->
+      <section class="about-content container">
+        <img src="/assets/images/barista-holding-coffee.webp" alt="Barista holding a coffee" />
+        <div class="about-text">
+          <h2>Welcome to The Code Den</h2>
+          <p>
+            The Code Den was born from a simple idea — a cozy space where
+            developers, designers, and dreamers can sip, study, and share ideas
+            over freshly brewed coffee.
+          </p>
+          <p>
+            Every bean we use is ethically sourced, roasted to perfection, and
+            paired with our signature pastries. Whether you’re debugging your
+            next big project or just need a caffeine recharge, our baristas have
+            your back.
+          </p>
+          <p>
+            With free Wi-Fi, plenty of charging points, and the comforting hum
+            of creativity, The Code Den is more than just a café — it’s your
+            second home.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 The Code Den. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
