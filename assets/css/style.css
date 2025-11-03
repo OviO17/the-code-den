@@ -20,25 +20,28 @@ body {
 }
 
 /* === Header === */
+/* === Header Base === */
 .site-header {
   background-color: #3b3024;
   color: #fff;
-  padding: 1rem 0;
+  padding: 0.7rem 0; /* shorter header */
 }
 
 .header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #fff;
   text-decoration: none;
 }
 
+/* === Nav list (Desktop) === */
 .nav-list {
   list-style: none;
   display: flex;
@@ -55,6 +58,50 @@ body {
 .nav-list a:hover,
 .nav-list a.active {
   color: #c89f6d;
+}
+
+/* === Mobile Menu (No JS) === */
+.nav-checkbox {
+  display: none; /* Hide the checkbox */
+}
+
+.nav-toggle-label {
+  display: none;
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* When checkbox is checked, show the menu */
+@media (max-width: 768px) {
+  .nav-list {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3b3024;
+    display: none;
+    padding: 1rem 0;
+  }
+
+  /* Checkbox checked → show menu */
+  .nav-checkbox:checked ~ nav .nav-list {
+    display: flex;
+  }
+
+  .nav-toggle-label {
+    display: block; /* Show burger icon on mobile */
+  }
+
+  .nav-list li {
+    padding: 0.6rem 0;
+  }
+
+  .nav-list a {
+    font-size: 1.1rem;
+  }
 }
 
 /* === Hero Section === */

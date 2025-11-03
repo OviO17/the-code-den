@@ -24,16 +24,29 @@
 
 <body>
   <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html">The Code Den</a>
+  <div class="container header-inner">
+    <a class="logo" href="index.html">The Code Den</a>
+
+    <!-- Hidden checkbox to control menu state -->
+    <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-label="Toggle navigation">
+
+    <!-- Label acts as the burger icon -->
+    <label for="nav-toggle" class="nav-toggle-label">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <!-- Navigation menu -->
+    <nav aria-label="Main Navigation">
       <ul class="nav-list">
         <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
         <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-    </div>
-  </header>
+    </nav>
+  </div>
+</header>
+
 
   <!-- Main Content -->
   <main>
