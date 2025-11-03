@@ -1,115 +1,159 @@
-# the-code-den
+#  The Code Den
 
-**The Code Den** is a fictional café website created as part of my Full Stack Development coursework.  
-It’s a welcoming space for developers and coffee lovers — combining creativity, code, and caffeine.
-
----
-
-## 🌐 Live Demo
-
- [View Live Site]https://github.com/OviO17/the-code-den
-
+Welcome to **The Code Den**, a cozy, developer-inspired café website created as part of **Code Institute’s Portfolio Project 1**.  
+It combines two essentials for every coder — **coffee and community**. The site provides a warm and functional space where users can explore the café’s menu, learn about the story behind The Code Den, and easily get in touch.
 
 ---
 
-##  Project Overview
+##  Table of Contents
 
-The Code Den website demonstrates the use of **HTML** and **CSS** to build a fully responsive, multi-page website without using any frameworks like Bootstrap.
-
-### Website Pages
-- **Home** – Hero section, featured items, and navigation links.  
-- **About** – Background of The Code Den and what it offers.  
-- **Menu** – Lists drinks and pastries with creative code-inspired names.  
-- **Contact** – Contact form with interactive feedback when a message is sent.
+1. [Project Goals](#project-goals)
+2. [User Experience (UX)](#user-experience-ux)
+3. [Features](#features)
+4. [Future Enhancements](#future-enhancements)
+5. [Design Choices](#design-choices)
+6. [Technologies Used](#technologies-used)
+7. [Testing](#testing)
+8. [Bugs and Fixes](#bugs-and-fixes)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
 
 ---
 
-##  Technologies Used
+##  Project Goals
 
-| Technology | Purpose |
-|-------------|----------|
-| **HTML5** | Website structure |
-| **CSS3** | Styling and layout |
-| **Font Awesome** | Social media icons |
-| **VS Code** | Code editor |
-| **Git & GitHub** | Version control and deployment |
+- To design and build a fully responsive café website using **HTML and CSS** only.  
+- To clearly communicate the site’s purpose (a café for coders).  
+- To demonstrate clean, semantic HTML and maintainable CSS.  
+- To create a consistent design with accessibility and usability in mind.
+
+---
+
+## User Experience (UX)
+
+### Target Audience
+- Developers and students looking for a comfortable place to work and relax.  
+- Coffee lovers who appreciate a creative café theme.  
+- Local visitors curious about the café menu or looking to get in touch.
+
+### User Stories
+- As a **visitor**, I want to understand what the café offers right away.  
+- As a **customer**, I want to browse the menu easily.  
+- As a **visitor**, I want to send a quick message via the contact form.  
+- As a **mobile user**, I want simple navigation that works well on smaller screens.
 
 ---
 
 ##  Features
 
-- Fully responsive design for mobile, tablet, and desktop.  
-- Navigation bar with a burger menu for mobile screens.  
-- Clickable featured items that link to the menu page.  
-- Contact form where the button changes to “Message Sent” when clicked.  
-- Custom favicon and consistent branding.  
-- Clean and readable HTML and CSS code.
+### **1. Home Page (index.html)**
+- Hero section with tagline and call-to-action buttons.  
+- Featured menu items with hover lift and links to the full menu.  
+- Responsive header and burger menu on mobile.
+
+### **2. About Page (about.html)**
+- Clear explanation of the café’s background and vision.  
+- Wide hero image banner for a welcoming introduction.
+
+### **3. Menu Page (menu.html)**
+- Categorized drinks and pastries with creative, coding-themed names.  
+- Fully responsive layout for desktop, tablet, and mobile.
+
+### **4. Contact Page (contact.html)**
+- Simple contact form for visitors to reach out.  
+- “Send Message” button changes to “Message Sent” when clicked.  
+- Longer text area for ease of typing.  
+- Footer remains fixed at bottom of the page.
+
+### **5. Footer**
+- Social media links (Instagram, Facebook, and X/Twitter) using Font Awesome icons.  
+- Smooth hover scaling and consistent style across all pages.
 
 ---
 
-##  Folder Structure
+##  Future Enhancements
 
-the-code-den/
-├── index.html
-├── about.html
-├── menu.html
-├── contact.html
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── images/
-│ │ ├── espresso.webp
-│ │ ├── latte.webp
-│ │ ├── cookie.webp
-│ │ └── hero.jpg
-│ └── favicon/
-│ ├── favicon-16x16.png
-│ ├── favicon-32x32.png
-│ ├── apple-touch-icon.png
-│ └── site.webmanifest
-└── README.md
+- Add JavaScript form validation or animations.  
+- Introduce an interactive gallery or live “Coffee of the Day.”  
+- Add location map and opening hours.  
+- Include a blog or events section.
 
 ---
 
-##  How to Run Locally
+##  Design Choices
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your----
+- **Color palette:** Warm tones inspired by coffee (brown, cream, gold).  
+- **Typography:** “Poppins” for modern readability.  
+- **Imagery:** Optimized `.webp` hero and featured images.  
+- **Layout:** Flexbox and grid for simple, clean responsiveness.  
+- **Favicon:** Coffee cup icon for a polished look.
 
-##  How to Run Locally
+---
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/OviO17/the-code-den
-Open the folder in VS Code.
+##  Technologies Used
 
-Right-click index.html and choose “Open with Live Server” (or open it directly in your browser).
+- **HTML5** – Semantic and accessible structure.  
+- **CSS3** – Responsive design with flexbox and media queries.  
+- **Font Awesome** – For social icons.  
+- **Git & GitHub** – Version control and hosting.  
+- **GitHub Pages** – For live deployment.
 
-Commit History
-During development, commits were made after completing key steps such as:
+---
 
-Creating and styling each page (Home, About, Menu, Contact)
+## 🧪 Testing
 
-Adding responsive design
+### Manual Testing
 
-Adding featured section links and hover effects
+| Feature | Expected Result | Outcome | Pass |
+|----------|----------------|----------|------|
+| Navigation links | Navigate correctly to each page | Works as expected | |
+| Burger menu | Opens and closes on mobile | Works smoothly |  |
+| Hero image | Resizes correctly on all devices | Fully responsive | |
+| Contact button | Changes text when clicked | Works perfectly | |
+| Footer | Consistent on every page | Displays correctly |  |
 
-Implementing the contact form interaction
+### Responsive Testing
+- Tested on **Chrome DevTools** across iPhone, iPad, and desktop sizes.  
+- Verified on **Chrome**, **Edge**, and **Firefox** browsers.  
+- **Lighthouse:** strong performance, accessibility, and mobile usability.
 
-Improving footer and social media icons
+---
 
-Future Improvements
-Add a review or testimonials section.
+##  Bugs and Fixes
 
-Include a light/dark mode switch.
+| Issue | Cause | Fix |
+|-------|--------|-----|
+| Footer not at bottom | Missing layout height | Added min-height and spacing fixes |
+| Burger menu missing on About | Incorrect header markup | Unified header across all pages |
+| Featured section spacing | Too large image-to-text gap | Adjusted `gap` and margins |
 
-Add animations and transitions for page elements.
+ All known issues have been resolved and retested.
 
- Author
-Ovie Agbofodoh
-Full Stack Development Student
- Based in Ireland
+---
 
- License
-This project is for educational purposes only and not intended for commercial use.
+##  Deployment
+
+This site was deployed via **GitHub Pages** directly from the repository.  
+
+### Deployment Steps
+1. Go to the [GitHub repository](https://github.com/OviO17/the-code-den).  
+2. Click on **Settings** → **Pages**.  
+3. Under *Branch*, select `main` and `/ (root)`.  
+4. Click **Save**.  
+5. Wait for GitHub Pages to publish the live link.
+
+🔗 **Live Site:** [https://ovio17.github.io/the-code-den](https://ovio17.github.io/the-code-den)
+
+### To Clone This Repository
+You can clone the project locally using:
+```bash
+git clone https://github.com/OviO17/the-code-den.git
+ Credits
+Developer: Ovie Agbofodoh
+
+Images: Pexels and Unsplash
+
+Icons: Font Awesome
+
+Inspiration: Code Institute’s Love Running and Coffee House projects.
+

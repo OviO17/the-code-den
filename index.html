@@ -2,128 +2,134 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> The Code Den | Page Name</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <title>The Code Den | Page Name</title>
 
-  <!-- Font Awesome for burger icon + social icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-  />
+    <!-- Font Awesome for burger icon + social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"/>
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 
-
 <body>
- <header class="site-header">
-  <div class="container header-inner">
-    <a class="logo" href="index.html">☕ The Code Den</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">☕ The Code Den</a>
 
-    <!-- Hidden checkbox to control menu state -->
-    <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-label="Toggle navigation">
+            <!-- Hidden checkbox to control menu state -->
+            <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-label="Toggle navigation"/>
 
-    <!-- Label acts as the burger icon -->
-    <label for="nav-toggle" class="nav-toggle-label">
-      <i class="fa-solid fa-bars"></i>
-    </label>
+            <!-- Label acts as the burger icon -->
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
 
-    <!-- Navigation menu -->
-    <nav aria-label="Main Navigation">
-      <ul class="nav-list">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+            <!-- Navigation menu -->
+            <nav aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to The Code Den</h1>
+            <p>
+                Your one-stop solution for coding, community, and of course, coffee.
+            </p>
+            <div class="cta-buttons">
+                <a class="btn-primary" href="menu.html">View Menu</a>
+                <a class="btn-secondary" href="about.html">Learn More</a>
+            </div>
+        </section>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Hero Section -->
-    <section class="hero">
-      <h1>Welcome to The Code Den</h1>
-      <p>Your one-stop solution for coding, community, and of course, coffee.</p>
-      <div class="cta-buttons">
-        <a class="btn-primary" href="menu.html">View Menu</a>
-        <a class="btn-secondary" href="about.html">Learn More</a>
-      </div>
-    </section>
+        <!-- Featured Section -->
+        <section class="container featured-section">
+            <h2>This Week’s Featured</h2>
 
-    <!-- Featured Section -->
-    <main class="container featured-section">
-  <h2>This Week’s Featured</h2>
-  
-  <ul class="menu-list featured-list">
-  <li>
-    <a href="menu.html" class="featured-link">
-      <img src="assets/images/espresso.webp" alt="Debug Brew">
-      <div class="item-info">
-        <h3>Debug Brew</h3>
-        <p>A bold espresso that fixes your morning bugs — smooth, strong, and essential.</p>
-      </div>
-    </a>
-  </li>
+            <ul class="menu-list featured-list">
+                <li>
+                    <a href="menu.html" class="featured-link">
+                        <img src="assets/images/espresso.webp" alt="Debug Brew"/>
+                        <div class="item-info">
+                            <h3>Debug Brew</h3>
+                            <p>
+                                A bold espresso that fixes your morning bugs — smooth, strong,
+                                and essential.
+                            </p>
+                        </div>
+                    </a>
+                </li>
 
-  <li>
-    <a href="menu.html" class="featured-link">
-      <img src="assets/images/latte.webp" alt="JavaScript Latte">
-      <div class="item-info">
-        <h3>JavaScript Latte</h3>
-        <p>Balanced flavors of vanilla and espresso — best enjoyed while coding.</p>
-      </div>
-    </a>
-  </li>
+                <li>
+                    <a href="menu.html" class="featured-link">
+                        <img src="assets/images/latte.webp" alt="JavaScript Latte"/>
+                        <div class="item-info">
+                            <h3>JavaScript Latte</h3>
+                            <p>
+                                Balanced flavors of vanilla and espresso — best enjoyed while
+                                coding.
+                            </p>
+                        </div>
+                    </a>
+                </li>
 
-  <li>
-    <a href="menu.html" class="featured-link">
-      <img src="assets/images/cookie.webp" alt="Syntax Cookie">
-      <div class="item-info">
-        <h3>Syntax Cookie</h3>
-        <p>Classic chocolate chip — a treat for a successful build.</p>
-      </div>
-    </a>
-  </li>
-</ul>
+                <li>
+                    <a href="menu.html" class="featured-link">
+                        <img src="assets/images/cookie.webp" alt="Syntax Cookie"/>
+                        <div class="item-info">
+                            <h3>Syntax Cookie</h3>
+                            <p>Classic chocolate chip — a treat for a successful build.</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
 
-</main>
+    <!--Footer-->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 The Code Den. All rights reserved.</p>
 
-  <!--Footer-->
-<footer>
-  <div class="container footer-content">
-    <p>&copy; 2025 The Code Den. All rights reserved.</p>
+            <!-- Social Media Icons -->
+            <div class="social-links">
+                <a href="https://www.instagram.com" target="_blank"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://x.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" aria-label="Visit our Youtube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
-    <!-- Social Media Icons -->
-    <div class="social-links">
-      <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)">
-       <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com" target="_blank"  aria-label="Visit our Facebook page (opens in a new tab)">
-       <i class="fa-brands fa-square-facebook"></i>
-      </a>
-      <a href="https://x.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-       <a href="https://youtube.com" target="_blank" aria-label="Visit our Youtube page (opens in a new tab)">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
-    </div>
-  </div>
-</footer>
-
- <!-- Font Awesome kit -->
+    <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-
 </body>
+
 </html>
