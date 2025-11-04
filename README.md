@@ -113,9 +113,10 @@ It combines two essentials for every coder — **coffee and community**. The sit
 | Footer | Consistent on every page | Displays correctly |  |
 
 ### Responsive Testing
-- Tested on **Chrome DevTools** across iPhone, iPad, and desktop sizes.  
+- Tested on **Chrome DevTools** across iPhone, iPad, and desktop sizes. 
+- Tested on  **W3c** html & css no errors
 - Verified on **Chrome**, **Edge**, and **Firefox** browsers.  
-- **Lighthouse:** strong performance, accessibility, and mobile usability.
+- **Lighthouse:** Mid performance, Strong accessibility, and mobile usability.
 
 ---
 
