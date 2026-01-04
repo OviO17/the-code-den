@@ -279,7 +279,7 @@ body {
   position: relative;
   width: 100vw;
   margin-left: calc(50% - 50vw); /* stretch full width */
-  background: url("../images/about-hero.jpg") center / cover no-repeat;
+  background: url("assets/images/about-hero.jpg") center / cover no-repeat;
   color: #fff;
   text-align: center;
   padding: 6rem 1rem;
