@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> The Code Den</title>
+  <title>The Code Den</title>
 
   <!-- Font Awesome for burger icon + social icons -->
   <link
@@ -24,29 +24,24 @@
 <body>
   <!-- Header -->
   <header class="site-header">
-  <div class="container header-inner">
-    <a class="logo" href="index.html">☕ The Code Den</a>
+    <div class="container header-inner">
+      <a class="logo" href="index.html">☕ The Code Den</a>
 
-    <!-- Hidden checkbox to control menu state -->
-    <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-label="Toggle navigation">
+      <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
 
-    <!-- Label acts as the burger icon -->
-    <label for="nav-toggle" class="nav-toggle-label">
-      <i class="fa-solid fa-bars"></i>
-    </label>
-
-    <!-- Navigation menu -->
-    <nav aria-label="Main Navigation">
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html" class="active">Menu</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+      <nav aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <!-- Main Content -->
   <main class="container">
@@ -55,63 +50,59 @@
     <!-- Espresso Bar Section -->
     <section class="menu-section">
       <h2>☕ Espresso Bar</h2>
-      <ul class="menu-list">
-        <li><span><strong>Binary Brew</strong> – Two espresso shots, perfectly balanced like 1s and 0s.</span><span>€2.80</span></li>
-        <li><span><strong>Debug Brew</strong> – Bold espresso shot, perfect for fixing all your bugs.</span><span>€2.50</span></li>
-        <li><span><strong>Code Cappuccino</strong> – Espresso, steamed milk, and foam in perfect harmony.</span><span>€3.00</span></li>
-        <li><span><strong>Syntax Shot</strong> – Short, sharp espresso hit for fast fixes.</span><span>€2.20</span></li>
-      </ul>
+      <div class="menu-content">
+        <ul class="menu-list">
+          <li><span><strong>Binary Brew</strong> – Two espresso shots, perfectly balanced like 1s and 0s.</span><span>€2.80</span></li>
+          <li><span><strong>Debug Brew</strong> – Bold espresso shot, perfect for fixing all your bugs.</span><span>€2.50</span></li>
+          <li><span><strong>Code Cappuccino</strong> – Espresso, steamed milk, and foam in perfect harmony.</span><span>€3.00</span></li>
+          <li><span><strong>Syntax Shot</strong> – Short, sharp espresso hit for fast fixes.</span><span>€2.20</span></li>
+        </ul>
+        <img src="assets/images/menu-1.webp" alt="Espresso">
+      </div>
     </section>
 
     <!-- Special Blends Section -->
     <section class="menu-section">
       <h2>🧋 Special Blends</h2>
-      <ul class="menu-list">
-        <li><span><strong>Java Latte</strong> – Creamy espresso with silky steamed milk.</span><span>€3.50</span></li>
-        <li><span><strong>Algorithm Americano</strong> – Espresso with hot water for smooth flavor.</span><span>€2.70</span></li>
-        <li><span><strong>Function Flat White</strong> – Velvety microfoam over double espresso.</span><span>€3.20</span></li>
-        <li><span><strong>Recursive Mocha</strong> – Espresso, milk, and chocolate topped with cream.</span><span>€3.80</span></li>
-      </ul>
+      <div class="menu-content">
+        <ul class="menu-list">
+          <li><span><strong>Java Latte</strong> – Creamy espresso with silky steamed milk.</span><span>€3.50</span></li>
+          <li><span><strong>Algorithm Americano</strong> – Espresso with hot water for smooth flavor.</span><span>€2.70</span></li>
+          <li><span><strong>Function Flat White</strong> – Velvety microfoam over double espresso.</span><span>€3.20</span></li>
+          <li><span><strong>Recursive Mocha</strong> – Espresso, milk, and chocolate topped with cream.</span><span>€3.80</span></li>
+        </ul>
+        <img src="assets/images/menu-2.webp" alt="Special Blends">
+      </div>
     </section>
 
     <!-- Pastries & Snacks Section -->
     <section class="menu-section">
       <h2>🥐 Pastries & Snacks</h2>
-      <ul class="menu-list">
-        <li><span><strong>Commit Scone</strong> – Buttery, lightly sweet scone for quick bites.</span><span>€2.00</span></li>
-        <li><span><strong>Compile Croissant</strong> – Flaky, golden perfection.</span><span>€2.50</span></li>
-        <li><span><strong>Syntax Cookie</strong> – Chocolate chip goodness for clean builds.</span><span>€1.80</span></li>
-        <li><span><strong>Byte Bagel</strong> – Freshly baked, served with cream cheese or butter.</span><span>€2.20</span></li>
-      </ul>
+      <div class="menu-content">
+        <ul class="menu-list">
+          <li><span><strong>Commit Scone</strong> – Buttery, lightly sweet scone for quick bites.</span><span>€2.00</span></li>
+          <li><span><strong>Compile Croissant</strong> – Flaky, golden perfection.</span><span>€2.50</span></li>
+          <li><span><strong>Syntax Cookie</strong> – Chocolate chip goodness for clean builds.</span><span>€1.80</span></li>
+          <li><span><strong>Byte Bagel</strong> – Freshly baked, served with cream cheese or butter.</span><span>€2.20</span></li>
+        </ul>
+        <img src="assets/images/menu-3.webp" alt="Pastries & Snacks">
+      </div>
     </section>
   </main>
 
   <!-- Footer -->
-  
-<footer>
-  <div class="container footer-content">
-    <p>&copy; 2025 The Code Den. All rights reserved.</p>
-
-    <!-- Social Media Icons -->
-    <div class="social-links">
-      <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)">
-       <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com" target="_blank"  aria-label="Visit our Facebook page (opens in a new tab)">
-       <i class="fa-brands fa-square-facebook"></i>
-      </a>
-      <a href="https://x.com" target="_blank" aria-label="Visit our Twitter page (opens in a new tab)">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-       <a href="https://youtube.com" target="_blank" aria-label="Visit our Youtube page (opens in a new tab)">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 The Code Den. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
- <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-
+  <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
 </html>
