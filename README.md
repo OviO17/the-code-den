@@ -16,7 +16,8 @@ It combines two essentials for every coder — **coffee and community**. The sit
 7. [Testing](#testing)
 8. [Bugs and Fixes](#bugs-and-fixes)
 9. [Deployment](#deployment)
-10. [Credits](#credits)
+10. [Developer](#developer)
+11. [Credits and Attributes](#credits-and-attribution)
 
 ---
 
@@ -39,8 +40,8 @@ It combines two essentials for every coder — **coffee and community**. The sit
 ### User Stories
 - As a **visitor**, I want to understand what the café offers right away.  
 - As a **customer**, I want to browse the menu easily.  
-- As a **visitor**, I want to send a quick message via the contact form.  
-- As a **mobile user**, I want simple navigation that works well on smaller screens.
+- As a **visitor**, I want to contact the café through a simple form. 
+- As a **mobile user**, I want simple navigation that works well on small screens.
 
 ---
 
@@ -52,20 +53,29 @@ It combines two essentials for every coder — **coffee and community**. The sit
 - Responsive header and burger menu on mobile.
 
 ### **2. About Page (about.html)**
-- Clear explanation of the café’s background and vision.  
-- Wide hero image banner for a welcoming introduction.
+- Café story and mission.
+- Wide hero image banner.
+- Supporting imagery and descriptive content.
 
 ### **3. Menu Page (menu.html)**
-- Categorized drinks and pastries with creative, coding-themed names.  
-- Fully responsive layout for desktop, tablet, and mobile.
+- Categorized drinks and pastrie.  
+- creative coding-themed names.
+- Clear pricing and readable layout.
 
 ### **4. Contact Page (contact.html)**
-- Simple contact form for visitors to reach out.  
-- “Send Message” button changes to “Message Sent” when clicked.  
-- Longer text area for ease of typing.  
-- Footer remains fixed at bottom of the page.
+- Simple contact form with user feedback.
+- “Send Message” button updates when clicked.
+- Accessible input fields and text area.
 
-### **5. Footer**
+### **5. Navigation**
+
+- Responsive navigation bar.
+
+- Burger menu on mobile using CSS only.
+
+- Active page indication.
+
+### **6. Footer**
 - Social media links (Instagram, Facebook, and X/Twitter) using Font Awesome icons.  
 - Smooth hover scaling and consistent style across all pages.
 
@@ -73,34 +83,40 @@ It combines two essentials for every coder — **coffee and community**. The sit
 
 ##  Future Enhancements
 
-- Add JavaScript form validation or animations.  
-- Introduce an interactive gallery or live “Coffee of the Day.”  
-- Add location map and opening hours.  
-- Include a blog or events section.
+- JavaScript form validation
+
+- Embedded map and opening hours
+
+- Image gallery or “Coffee of the Day”
+
+- Blog or events section
 
 ---
 
 ##  Design Choices
 
-- **Color palette:** Warm tones inspired by coffee (brown, cream, gold).  
-- **Typography:** “Poppins” for modern readability.  
-- **Imagery:** Optimized `.webp` hero and featured images.  
-- **Layout:** Flexbox and grid for simple, clean responsiveness.  
-- **Favicon:** Coffee cup icon for a polished look.
+- **Color palette:** Warm coffee-inspired tones (brown, cream, gold).
+- **Typography:**Quintessential (Google Fonts) for a cozy, café feel.
+- **Imagery:** Optimized .webp images for performance. 
+- **Layout:** Flexbox and CSS Grid for responsiveness  
+- **Accessibility:** High contrast, clear hierarchy, readable font sizes.
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
-- **HTML5** – Semantic and accessible structure.  
-- **CSS3** – Responsive design with flexbox and media queries.  
-- **Font Awesome** – For social icons.  
-- **Git & GitHub** – Version control and hosting.  
-- **GitHub Pages** – For live deployment.
+- HTML5 – Semantic and accessible structure  
+- CSS3 – Responsive design with Flexbox and Media Queries  
+- JavaScript – Enhances contact form user feedback  
+- Google Fonts – Quintessential  
+- Font Awesome – Icons  
+- Git & GitHub – Version control  
+- GitHub Pages – Deployment  
+
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Manual Testing
 
@@ -132,29 +148,43 @@ It combines two essentials for every coder — **coffee and community**. The sit
 
 ---
 
-##  Deployment
+## Deployment
 
-This site was deployed via **GitHub Pages** directly from the repository.  
+The site was deployed using **GitHub Pages**.
 
-### Deployment Steps
-1. Go to the [GitHub repository](https://github.com/OviO17/the-code-den).  
-2. Click on **Settings** → **Pages**.  
-3. Under *Branch*, select `main` and `/ (root)`.  
-4. Click **Save**.  
-5. Wait for GitHub Pages to publish the live link.
+### Steps to Deploy
+1. Log into GitHub and open the repository.
+2. Navigate to **Settings**.
+3. Click **Pages** in the left-hand menu.
+4. Under *Source*, select:
+   - Branch: `main`
+   - Folder: `/ (root)`
+5. Click **Save**.
+6. The live site link appears at the top of the Pages section.
 
-🔗 **Live Site:** [https://ovio17.github.io/the-code-den](https://ovio17.github.io/the-code-den)
+### Live Link
+https:
 
-### To Clone This Repository
-You can clone the project locally using:
-```bash
-git clone https://github.com/OviO17/the-code-den.git
- Credits
-Developer: Ovie Agbofodoh
 
-Images: Pexels and Unsplash
+## Developer 
+Ovie Agbofodoh
 
-Icons: Font Awesome
+## Credits and Attribution
 
-Inspiration: Code Institute’s Love Running and Coffee House projects.
+### Content
+- All text content was written by the developer.
+
+### Images
+- Hero and featured images sourced from **Pexels** and **Unsplash**.
+- Images were optimised and converted to `.webp` format for performance.
+
+### Icons
+- Icons provided by **Font Awesome**.
+
+### Code
+- Navigation and layout structure inspired by Code Institute’s
+  *Love Running* and *Coffee House* walkthrough projects.
+
+
+
 
