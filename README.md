@@ -148,24 +148,28 @@ It combines two essentials for every coder — **coffee and community**. The sit
 #### Home Page
 
 Initial lighthouse testing :
+
 ![Lighthouse Testing for Desktop Home Page - Test 1](docs/testing/lighthouse/homedesktop.png) ~
 ![Lighthouse Testing for Mobile Home Page - Test 1](docs/testing/lighthouse/homemobile.png)
 
 #### Menu Page
 
 Initial lighthouse testing:
+
 ![Lighthouse Testing for Desktop Menu Page](docs/testing/lighthouse/menudesktop.png) ~
 ![Lighthouse Testing for Mobile Menu Page](docs/testing/lighthouse/menumobile.png)
 
 #### About Page
 
 Initial lighthouse testing:
+
 ![Lighthouse Testing for Desktop About Page](docs/testing/lighthouse/aboutdesktop.png) ~
 ![Lighthouse Testing for Mobile About Page](docs/testing/lighthouse/aboutmobile.png)
 
 #### Contact Page
 
 Initial lighthouse testing:
+
 ![Lighthouse Testing for Desktop Contact Page](docs/testing/lighthouse/contactdesktop.png) ~
 ![Lighthouse Testing for Mobile Contact Page](docs/testing/lighthouse/contactmobile.png)
 
