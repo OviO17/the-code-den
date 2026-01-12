@@ -38,10 +38,25 @@ It combines two essentials for every coder — **coffee and community**. The sit
 - Local visitors curious about the café menu or looking to get in touch.
 
 ### User Stories
-- As a **visitor**, I want to understand what the café offers right away.  
-- As a **customer**, I want to browse the menu easily.  
-- As a **visitor**, I want to contact the café through a simple form. 
+- As a **visitor**, I want to understand what the café offers right away.
+### Home Page
+![Home Page](docs/screenshots/home-desktop.png)
+
+### About Page
+![About Page](docs/screenshots/about-desktop.png)
+
+
+- As a **customer**, I want to browse the menu easily.
+### Menu Page
+![Menu Page](docs/screenshots/menu-desktop.png)
+
+- As a **returning-visitor**, I want to contact the café through a simple form. 
+### Contact Page
+![Contact Page](docs/screenshots/contact-desktop.png)
+
 - As a **mobile user**, I want simple navigation that works well on small screens.
+### Mobile Navigation
+![Mobile Navigation](docs/screenshots/mobile-nav.png)
 
 ---
 
@@ -83,13 +98,9 @@ It combines two essentials for every coder — **coffee and community**. The sit
 
 ##  Future Enhancements
 
-- JavaScript form validation
+- opening hours
+- featured list
 
-- Embedded map and opening hours
-
-- Image gallery or “Coffee of the Day”
-
-- Blog or events section
 
 ---
 
@@ -130,9 +141,33 @@ It combines two essentials for every coder — **coffee and community**. The sit
 
 ### Responsive Testing
 - Tested on **Chrome DevTools** across iPhone, iPad, and desktop sizes. 
-- Tested on  **W3c** html & css no errors
 - Verified on **Chrome**, **Edge**, and **Firefox** browsers.  
-- **Lighthouse:** Mid performance, Strong accessibility, and mobile usability.
+- Tested on  **W3c** html & css no errors
+ 
+- **Lighthouse:** 
+#### Home Page
+
+Initial lighthouse testing :
+[Lighthouse Testing for Desktop Home Page - Test 1](docs/testing/lighthouse/homedesktop.png) ~
+[Lighthouse Testing for Mobile Home Page - Test 1](docs/testing/lighthouse/homemobile.png)
+
+#### Menu Page
+
+Initial lighthouse testing:
+[Lighthouse Testing for Desktop Menu Page](docs/testing/lighthouse/menudesktop.png) ~
+[Lighthouse Testing for Mobile Menu Page](docs/testing/lighthouse/menumobile.png)
+
+#### About Page
+
+Initial lighthouse testing:
+[Lighthouse Testing for Desktop About Page](docs/testing/lighthouse/aboutdesktop.png) ~
+[Lighthouse Testing for Mobile About Page](docs/testing/lighthouse/aboutmobile.png)
+
+#### Contact Page
+
+Initial lighthouse testing:
+[Lighthouse Testing for Desktop Contact Page](docs/testing/lighthouse/contactdesktop.png) ~
+[Lighthouse Testing for Mobile Contact Page](docs/testing/lighthouse/contactmobile.png)
 
 ---
 
