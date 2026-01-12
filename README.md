@@ -198,7 +198,7 @@ The site was deployed using **GitHub Pages**.
 6. The live site link appears at the top of the Pages section.
 
 ### Live Link
-https:
+https://ovio17.github.io/the-code-den/
 
 
 ## Developer 
